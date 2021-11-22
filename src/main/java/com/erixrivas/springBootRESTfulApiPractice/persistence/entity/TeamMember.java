@@ -21,5 +21,23 @@ public class TeamMember {
 	private String name;
 	@ManyToMany
 	private List<Skill> Skills;
+	public Integer getId() {
+		return id;
+	}
+	public void setId(Integer id) {
+		this.id = id;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public List<Skill> getSkills() {
+		return Skills;
+	}
+	public void setSkills(List<Skill> skills) {
+		Skills = skills;
+	}
 	
 }

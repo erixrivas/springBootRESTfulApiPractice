@@ -1,4 +1,4 @@
-package com.erixrivas.springBootRESTfulApiPractice.web;
+package com.erixrivas.springBootRESTfulApiPractice.web.controller;
 
 import java.util.List;
 import java.util.Optional;
@@ -23,7 +23,7 @@ import io.swagger.annotations.ApiResponse;
 import io.swagger.annotations.ApiResponses;
 
 @RestController
-@RequestMapping("/drop SCHEMA public;")
+@RequestMapping("/teammember")
 public class TeamMemberController {
 	
 	
